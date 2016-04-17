@@ -13,12 +13,17 @@ namespace QuuantumTheory.CompositeParticles.Hadron
     {
         private List<Quark> _composition;
 
-        public PentaQuark()
-        { }
+        public PentaQuark(List<Quark> quarks)
+        {
+            Assemble(quarks);
+              
+        }
 
         public bool Assemble(List<Quark> quarks)
         {
             bool isValid = false;
+            //Build validation logic for producing PentaQuark
+            _composition = quarks;
 
             return isValid;
         }
