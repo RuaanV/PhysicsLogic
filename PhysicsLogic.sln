@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuantumTheory", "PhysicsLogic\QuantumTheory.csproj", "{2EA69FFA-2A3C-4230-A60B-393E9F7CAE0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IQuantumTheory", "IPhysicsLogic\IQuantumTheory.csproj", "{9EEB7E5E-F1D2-4D9B-A861-E0CDA1898A0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysicsConsole", "PhysicsConsole\PhysicsConsole.csproj", "{A4419A20-B7A2-4D3D-BF44-16BC5183C441}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Physics_UnitTests", "Physics_UnitTests\Physics_UnitTests.csproj", "{5AB6C29D-5593-40BF-9221-E3E2D7C9EFE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA69FFA-2A3C-4230-A60B-393E9F7CAE0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA69FFA-2A3C-4230-A60B-393E9F7CAE0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA69FFA-2A3C-4230-A60B-393E9F7CAE0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA69FFA-2A3C-4230-A60B-393E9F7CAE0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEB7E5E-F1D2-4D9B-A861-E0CDA1898A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEB7E5E-F1D2-4D9B-A861-E0CDA1898A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEB7E5E-F1D2-4D9B-A861-E0CDA1898A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEB7E5E-F1D2-4D9B-A861-E0CDA1898A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4419A20-B7A2-4D3D-BF44-16BC5183C441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4419A20-B7A2-4D3D-BF44-16BC5183C441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4419A20-B7A2-4D3D-BF44-16BC5183C441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4419A20-B7A2-4D3D-BF44-16BC5183C441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AB6C29D-5593-40BF-9221-E3E2D7C9EFE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AB6C29D-5593-40BF-9221-E3E2D7C9EFE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AB6C29D-5593-40BF-9221-E3E2D7C9EFE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AB6C29D-5593-40BF-9221-E3E2D7C9EFE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
