@@ -15,7 +15,11 @@ namespace QuuantumTheory.CompositeParticles.Hadron
 
         public PentaQuark(List<Quark> quarks)
         {
-            Assemble(quarks);
+            bool isValid = Assemble(quarks);
+            if (!isValid)
+            {
+                throw new ArgumentException("PentaQuark Assembly is not valid and will deteriorate");
+            }
               
         }
 
