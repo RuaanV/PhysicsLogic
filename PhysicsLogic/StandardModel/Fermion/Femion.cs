@@ -21,6 +21,7 @@ namespace QuantumTheory.StandardModel.Fermion
         }
 
         public double WeakIsospin
+        { get; set; }
 
         public Double ElectricalCharge
         {
