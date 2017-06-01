@@ -21,11 +21,10 @@ namespace QuantumTheory.StandardModel.Fermion
         }
 
         public double WeakIsospin
-        { get; set; }
 
         public Double ElectricalCharge
         {
             get { return HyperCharge + WeakIsospin; }
-        }
+        } 
     }
 }
