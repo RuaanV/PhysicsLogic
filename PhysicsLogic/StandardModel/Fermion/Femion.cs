@@ -19,7 +19,10 @@ namespace QuantumTheory.StandardModel.Fermion
             set
             { _gaugeBson = value; }
         }
-
+/// <summary>
+/// Testing Github Desktop
+/// </summary>
+/// <returns></returns>
         public double WeakIsospin
         { get; set; }
 
