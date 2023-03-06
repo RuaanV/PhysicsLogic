@@ -8,5 +8,6 @@ namespace QuantumTheory.CompositeParticles
 {
     public class CompositeParticle
     {
+        int hi = 0;
     }
 }
